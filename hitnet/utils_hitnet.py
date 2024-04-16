@@ -28,7 +28,8 @@ def draw_disparity(disparity_map):
 
 	disparity_map = disparity_map.astype(np.uint8)
 	norm_disparity_map = (255*((disparity_map-np.min(disparity_map))/(np.max(disparity_map) - np.min(disparity_map))))
-	return cv2.applyColorMap(cv2.convertScaleAbs(norm_disparity_map,1), cv2.COLORMAP_MAGMA)
+	print(np.shape(norm_disparity_map))
+	return cv2.convertScaleAbs(norm_disparity_map,1)#cv2.applyColorMap(cv2.convertScaleAbs(norm_disparity_map,1), cv2.COLORMAP_MAGMA)
 
 def draw_depth(depth_map, max_dist):
 	

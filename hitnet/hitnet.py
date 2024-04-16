@@ -65,8 +65,8 @@ class HitNet():
 		if (self.model_type == ModelType.eth3d):
 
 			# Shape (1, None, None, 2)
-			left_img = cv2.cvtColor(left_img, cv2.COLOR_BGR2GRAY)
-			right_img = cv2.cvtColor(right_img, cv2.COLOR_BGR2GRAY)
+			# left_img = cv2.cvtColor(left_img, cv2.COLOR_BGR2GRAY)
+			# right_img = cv2.cvtColor(right_img, cv2.COLOR_BGR2GRAY)
 
 			left_img = np.expand_dims(left_img,2)
 			right_img = np.expand_dims(right_img,2)

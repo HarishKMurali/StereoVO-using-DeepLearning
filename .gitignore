@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+#avi files
+.avi
+#pkl files
+.pkl
+.pb
+
+
 # Distribution / packaging
 .Python
 build/
