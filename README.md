@@ -10,6 +10,7 @@ Three different methods are implemented in this project. Namely,
 # Flow for the SVO implementation
 
 ![Flow for the SVO implementation](https://github.com/HarishKMurali/StereoVO-using-DeepLearning/blob/main/doc/img/flow_chart.jpg)
+
 *Flow for the SVO implementation*
 # Prerequisites
 
