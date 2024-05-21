@@ -41,3 +41,9 @@ Running the main file will generate a pkl file which stores in the disparity map
 
 ![Sequence 3, 7, 10](https://github.com/HarishKMurali/StereoVO-using-DeepLearning/blob/main/doc/img/Odom_3_7_10.png)
 *Odometry plots for 3 different sequences: Green line represents Ground truth, Red represents Traditional Monocular Odometry, Blue represents Traditional SVO and Yellow represents HITNet (Deep learning based) SVO*
+
+# Team Members
+
+1. [Harish Krishnamoorthy Murali](https://github.com/HarishKMurali)
+2. [Pranav Kumar](https://github.com/PranavKumarAV)
+3. [Vicknesh Balabaskaran](https://github.com/VickneshB)
